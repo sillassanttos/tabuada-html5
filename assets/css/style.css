@@ -17,8 +17,21 @@ body {
   text-align: center;
 }
 
-.content-tabuada td {
-  padding: 10px;
+.content-tabuada table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
+.content-tabuada td {
+  padding: 0.75rem;
+  border-top: 1px solid #dee3e6;
+}
 
+.content-tabuada tbody tr:nth-child(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.content-tabuada tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
